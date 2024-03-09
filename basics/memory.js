@@ -30,15 +30,17 @@ datatypes uses heap and heap gives the address of the element and when you chang
 accessing the address of that element that means you are changing in original value as well because 
 of the address (reference) so that's heap for ya ;)
 
-*/
-
-let function1 = {
-     a : 5
-};
-
+//-------------------another example of heap with non primitive datatype (function)--------------------------
 let function2 = {
-   b : 9
-   c : console.log(b)
-};
-
-function2 = function1
+    a: 5
+  };
+  
+  let function1 = function2;
+  
+  console.log(function1.a); // Outputs: 5
+  
+  function2.a = 10; // Modify function2
+  
+  console.log(function1.a); // Outputs: 10, since function1 refers to the same object as function2
+  // original value changes
+  
