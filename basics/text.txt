@@ -1,2 +1,3 @@
-a demo file to learn pull requests if the file is missing in another branch or in second case the file is there in another branch but the changes are not there only then pull requests will work if there 
-are different things in both the branches then the pull requests are harder to imply
+a demo file to learn pull requests. if the file is missing in another branch  then pull requests will work if there and if the files are present in both branches but the contents are different then the pull requests won't work
+
+
